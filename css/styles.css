@@ -14,13 +14,11 @@ h1 {
 }
 
 h3 {
-    color: black;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 p {
-    color: black;
     font-size: 1rem;
 }
 .container-fluid {
@@ -68,10 +66,11 @@ p {
 
 /* Features */
 
-#features {
+.features-icon {
+    padding-bottom: 10px;
     color: #ff4c5c;
 }
 
-.features-icon-pad {
-    padding-bottom: 10px;
+.features-icon:hover {
+    color: #ff1c0c;
 }
