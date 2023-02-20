@@ -13,6 +13,16 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 1rem;
+}
 .container-fluid {
     padding: 3% 15%;
 }
@@ -54,4 +64,14 @@ h1 {
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
     transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+    color: #ff4c5c;
+}
+
+.features-icon-pad {
+    padding-bottom: 10px;
 }
