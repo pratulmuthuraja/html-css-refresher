@@ -10,6 +10,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 4rem;
     line-height: 1.5;
 }
@@ -33,14 +34,14 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
     color: white;
 }
 
 .nav-item {
     padding: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
     color: white;
 }
@@ -122,13 +123,15 @@ p {
     height: 22rem;
 }
 
-.card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 3;
+/* Media Query Breakpoints */
+
+  @media (max-width: 1028px){
+    #title {
+        text-align: center;
     }
-    @include media-breakpoint-only(sm) {
-      column-count: 2;
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
     }
   }
-
-  
