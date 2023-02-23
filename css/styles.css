@@ -123,6 +123,33 @@ p {
     height: 22rem;
 }
 
+/* Call to Action */
+
+#cta {
+    padding: 50px;
+    text-align: center;
+    background-color: #ff4c5c;
+}
+
+.cta-button {
+    padding: 3% 7% 0%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-icons {
+    padding: 10px;
+}
+
+.fa-brands {
+    
+}
+
 /* Media Query Breakpoints */
 
   @media (max-width: 1028px){
